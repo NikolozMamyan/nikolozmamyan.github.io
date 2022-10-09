@@ -1,0 +1,12 @@
+/* button */
+@mixin button {
+  margin-top: 10px;
+  height: 47px;
+  width: 210px;
+  border-radius: 30px;
+  background-image: linear-gradient(135deg, $rose, $violet);
+  box-shadow: 7px 6px 7px #0000002e;
+  border: 0px;
+  cursor: pointer;
+  transition: all 200ms;
+}

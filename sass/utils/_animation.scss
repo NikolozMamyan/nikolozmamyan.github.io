@@ -1,0 +1,48 @@
+// Loader de la page
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    visibility: hidden;
+  }
+}
+@keyframes opacite {
+  50% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.3;
+    visibility: hidden;
+  }
+}
+// Le check pour la selection du menu
+@keyframes spin {
+  from {
+    transform: rotate(-280deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+// Animation apparition progressive
+@keyframes pageanim {
+  0% {
+    transform: scaleY(0.4);
+    transform-origin: 100% 0%;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 100% 0%;
+    opacity: 1;
+  }
+}

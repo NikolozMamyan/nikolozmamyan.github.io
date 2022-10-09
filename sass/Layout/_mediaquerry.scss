@@ -1,0 +1,133 @@
+/* Mobile */
+@media only screen and (max-width: 610px) {
+  .step2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 40px;
+  }
+
+  .menu {
+    border-radius: 0px;
+  }
+
+  h2.section-title {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  h2.section-resto {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  .bloc-loader {
+    left: 30%;
+    top: 50%;
+  }
+  .heart-white {
+    margin-top: -60px;
+    position: absolute;
+    right: 30px;
+    font-size: 24px;
+  }
+  .heart-black {
+    margin-top: -80px;
+    position: absolute;
+    right: 30px;
+  }
+  /* footer */
+  .footer-container {
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+  }
+  a.footer-title {
+    font-size: 20px;
+  }
+  .footer-content-subtitle {
+    margin-top: 12px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .flexbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .heart-white {
+    margin-top: -60px;
+    position: absolute;
+    right: 30px;
+    font-size: 24px;
+  }
+  .heart-black {
+    margin-top: -80px;
+    position: absolute;
+    right: 30px;
+  }
+  i.far.fa-heart {
+    position: absolute;
+    margin-left: -26px;
+  }
+  i.fa.fa-heart {
+    position: absolute;
+    margin-left: -22px;
+  }
+  .headblock img {
+    width: 100%;
+    height: 280px;
+  }
+  .box {
+    width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* footer */
+  .footer-container {
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+  }
+  a.footer-title {
+    font-size: 20px;
+  }
+  .footer-content-subtitle {
+    margin-top: 12px;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .menu1 {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  .menu1 {
+    max-width: 465px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box {
+    width: 340px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .menu1 {
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box {
+    width: 270px;
+  }
+}
