@@ -1,0 +1,76 @@
+/* Fonctionnement-commande */
+h2.section-title {
+  text-align: center;
+}
+div.step {
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  padding-bottom: 15px;
+}
+div.number-one {
+  border-radius: 15px;
+  height: 25px;
+  width: 25px;
+  background-color: $violet;
+  color: white;
+}
+div.block {
+  display: flex;
+  border: none;
+  width: 290px;
+  border-radius: 20px;
+  box-shadow: 0 5px 16px #0000002e;
+  height: 75px;
+  margin-top: 20px;
+  background-color: $grisclaire;
+}
+div.block:hover {
+  background-color: $violettransparent;
+}
+div.number-one {
+  margin-top: 22px;
+  margin-left: -11px;
+}
+i.fas.fa-mobile-alt:hover {
+  color: $violet;
+}
+
+i.fas.fa-mobile-alt {
+  margin-top: 25px;
+  margin-left: 15px;
+  color: gray;
+  font-size: 20px;
+}
+
+.block-text {
+  color: black;
+  padding: 25px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 25px;
+}
+span.one {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+}
+i.fas.fa-list-ul {
+  margin-top: 25px;
+  font-size: 20px;
+  margin-left: 15px;
+  color: gray;
+}
+i.fas.fa-list-ul:hover {
+  color: $violet;
+}
+i.fas.fa-store {
+  font-size: 17px;
+  margin-top: 25px;
+  margin-left: 15px;
+  color: gray;
+}
+i.fas.fa-store:hover {
+  color: $violet;
+}
