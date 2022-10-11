@@ -2,6 +2,7 @@
 .header {
   display: flex;
   justify-content: center;
+  padding-bottom: 15px;
 }
 
 .header img {
@@ -11,8 +12,8 @@
 .location {
   display: flex;
   justify-content: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   box-shadow: inset 0px 3px 1px rgb(191, 188, 188);
   background-color: $gris;
   margin-left: 0px;

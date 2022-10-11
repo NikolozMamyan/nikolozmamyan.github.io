@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
 }
 span {
   font-family: "Roboto", sans-serif;
@@ -24,5 +25,10 @@ li {
   border-bottom: 3px solid #99e2d0;
   width: 50px;
   padding-bottom: 5px;
-  margin-left: -20px;
+  margin-left: -15px;
+}
+
+ul {
+  position: absolute;
+  left: 0px;
 }
