@@ -1,0 +1,17 @@
+// google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700;800;900&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700;800;900&family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap");
+// les composents de la page
+@import "./sass/base/base";
+@import "./sass/utils/animation";
+@import "./sass/utils/variable";
+@import "./sass/components/button";
+// Les sections
+@import "./sass/Layout/loader";
+@import "./sass/Layout/header";
+@import "./sass/Layout/fonctionnement";
+@import "./sass/Layout/menu";
+@import "./sass/Layout/footer";
+// parametrage mobile
+@import "./sass/Layout/mediaquerry";
